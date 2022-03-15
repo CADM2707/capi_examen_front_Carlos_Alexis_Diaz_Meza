@@ -66,6 +66,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "capi_examen_front_Carlos_Alexis_Diaz_Meza:build",
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "configurations": {
             "production": {
               "browserTarget": "capi_examen_front_Carlos_Alexis_Diaz_Meza:build:production"
